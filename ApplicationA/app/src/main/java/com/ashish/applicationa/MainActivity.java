@@ -41,7 +41,10 @@ public class MainActivity extends AppCompatActivity {
     {
             Intent i = new Intent();
             i.setAction(Intent.ACTION_SEND);
-            i.putExtra(Intent.EXTRA_TEXT,new String[]{value1.getText().toString(),value2.getText().toString()});
+            String [] stringsArray = new String[2];
+            stringsArray[0]=value1.getText().toString();
+            stringsArray[1]=value1.getText().toString();
+            i.putExtra("values",stringsArray);
             //i.putExtra("value2",value2.getText().toString());
             i.setType("text/plain");
             startActivity(i);
