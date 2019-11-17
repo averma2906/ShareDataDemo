@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ApplicationA</string>
     <string name="action_settings">Settings</string>
+    <string name="Submit">Button</string>
+    <string name="str1">str1</string>
+    <string name="str2">str2</string>
 </resources>
