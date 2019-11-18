@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/f5321d93052b8236e28b3c0d8a6f9270/design-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d2bdcf6b10fd9d24d4da7c005e2d8b3b/appcompat-v7-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ashish/.gradle/caches/transforms-2/files-2.1/7293fc2900d47e30daa77fec0fa7d7fe/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d1789f59811d2460705e5a1b0ea6dc07/support-v4-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cead2b63c909fee964b76e221da5be4a/support-fragment-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/e9bca28ad9236c4e7070e65ea0b79f5d/support-core-utils-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/878c58525abbb379b41bbc2c0c876669/animated-vector-drawable-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/52a47706659d5c1a07b5864a9c88809c/support-vector-drawable-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/1fe09dc7779d202eb533551210aced0e/recyclerview-v7-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/34bb859a19621cb85391991a8a22b775/transition-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cb48bfa2c0a10051afa3c05fe0b553aa/support-core-ui-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/491a5216abe9738b14249aed6d86f36d/support-media-compat-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/50da384ec105570196e5415e0639b32a/support-compat-27.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ashish/.gradle/caches/transforms-2/files-2.1/7293fc2900d47e30daa77fec0fa7d7fe/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ashish/.gradle/caches/transforms-2/files-2.1/7293fc2900d47e30daa77fec0fa7d7fe/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.ashish.applicationa.MainActivity
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/f5321d93052b8236e28b3c0d8a6f9270/design-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/f5321d93052b8236e28b3c0d8a6f9270/design-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d2bdcf6b10fd9d24d4da7c005e2d8b3b/appcompat-v7-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d2bdcf6b10fd9d24d4da7c005e2d8b3b/appcompat-v7-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ashish/.gradle/caches/transforms-2/files-2.1/7293fc2900d47e30daa77fec0fa7d7fe/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/ashish/.gradle/caches/transforms-2/files-2.1/7293fc2900d47e30daa77fec0fa7d7fe/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d1789f59811d2460705e5a1b0ea6dc07/support-v4-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/d1789f59811d2460705e5a1b0ea6dc07/support-v4-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cead2b63c909fee964b76e221da5be4a/support-fragment-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cead2b63c909fee964b76e221da5be4a/support-fragment-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/e9bca28ad9236c4e7070e65ea0b79f5d/support-core-utils-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/e9bca28ad9236c4e7070e65ea0b79f5d/support-core-utils-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/878c58525abbb379b41bbc2c0c876669/animated-vector-drawable-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/878c58525abbb379b41bbc2c0c876669/animated-vector-drawable-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/52a47706659d5c1a07b5864a9c88809c/support-vector-drawable-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/52a47706659d5c1a07b5864a9c88809c/support-vector-drawable-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/1fe09dc7779d202eb533551210aced0e/recyclerview-v7-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/1fe09dc7779d202eb533551210aced0e/recyclerview-v7-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/34bb859a19621cb85391991a8a22b775/transition-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/34bb859a19621cb85391991a8a22b775/transition-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cb48bfa2c0a10051afa3c05fe0b553aa/support-core-ui-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/cb48bfa2c0a10051afa3c05fe0b553aa/support-core-ui-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/491a5216abe9738b14249aed6d86f36d/support-media-compat-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/491a5216abe9738b14249aed6d86f36d/support-media-compat-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/50da384ec105570196e5415e0639b32a/support-compat-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/50da384ec105570196e5415e0639b32a/support-compat-27.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/src/main/AndroidManifest.xml
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/ashish/.gradle/caches/transforms-2/files-2.1/dd1830fca7186993173b668c922a0684/runtime-1.0.0/AndroidManifest.xml:26:13-58
