@@ -10,11 +10,19 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.content.*;
-
+import android.widget.RadioGroup;
+enum OperationType{
+    Concatination,
+    Addition,
+    Substraction,
+    Multiplication,
+    Division
+}
 public class MainActivity extends AppCompatActivity {
  EditText value1;
  EditText value2;
-
+ RadioGroup radioGroup;
+ OperationType currentOperation;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         //Setting reference of edit text fields.
         value1 = findViewById(R.id.editText);
         value2 = findViewById(R.id.editText2);
-
+        radioGroup = findViewById(R.id.radioGroup);
 //       FloatingActionButton fab = findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -36,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 //        });
     }
 
-
+    private String actionType;
     public void SendValue(View v)
     {
             Intent i = new Intent();
@@ -44,10 +52,37 @@ public class MainActivity extends AppCompatActivity {
             String [] stringsArray = new String[2];
             stringsArray[0]=value1.getText().toString();
             stringsArray[1]=value1.getText().toString();
+           // stringArray[2]==value1.getText().toString();
             i.putExtra("values",stringsArray);
             //i.putExtra("value2",value2.getText().toString());
             i.setType("text/plain");
             startActivity(i);
+    }
+
+    public void OnRadioButtonClick(View v)
+    {
+        int selectedId = radioGroup.getCheckedRadioButtonId();
+
+        switch (selectedId)
+        {
+            case R.id.subradioButton:
+                currentOperation = OperationType.Substraction;
+                break;
+            case R.id.concatradioButton:
+                currentOperation = OperationType.Concatination;
+                break;
+            case R.id.divideradioButton:
+                currentOperation = OperationType.Division;
+                break;
+            case R.id.sumradioButton:
+                currentOperation = OperationType.Addition;
+                break;
+            case R.id.multiplyradioButton:
+                currentOperation = OperationType.Multiplication;
+                break;
+
+        }
+
     }
 
     @Override

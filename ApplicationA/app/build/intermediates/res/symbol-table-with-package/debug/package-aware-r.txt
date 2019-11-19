@@ -835,6 +835,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id concatradioButton
 id container
 id contentPanel
 id coordinator
@@ -850,6 +851,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id divideradioButton
 id editText
 id editText2
 id edit_query
@@ -890,6 +892,7 @@ id message
 id middle
 id mini
 id multiply
+id multiplyradioButton
 id navigation_header_container
 id never
 id none
@@ -907,6 +910,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id radioGroup
 id right
 id right_icon
 id right_side
@@ -950,6 +954,8 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id subradioButton
+id sumradioButton
 id tabMode
 id tag_transition_group
 id text

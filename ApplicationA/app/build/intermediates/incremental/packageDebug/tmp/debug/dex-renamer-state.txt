@@ -1,4 +1,4 @@
-#Sun Nov 17 22:50:29 IST 2019
+#Tue Nov 19 18:39:25 IST 2019
 base.0=/Users/ashish/Downloads/AndroidBuild/ShareDataDemo/ApplicationA/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
