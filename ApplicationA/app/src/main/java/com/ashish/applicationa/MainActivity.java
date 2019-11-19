@@ -11,6 +11,8 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.content.*;
 import android.widget.RadioGroup;
+import android.widget.TextView;
+
 enum OperationType{
     Concatination,
     Addition,
@@ -23,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
  EditText value2;
  RadioGroup radioGroup;
  OperationType currentOperation;
+ TextView resultView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
+        resultView = findViewById(R.id.resulttextView);
         setSupportActionBar(toolbar);
 
         //Setting reference of edit text fields.
@@ -49,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
     {
             Intent i = new Intent();
             i.setAction(Intent.ACTION_SEND);
-            String [] stringsArray = new String[2];
+            String [] stringsArray = new String[3];
             stringsArray[0]=value1.getText().toString();
             stringsArray[1]=value1.getText().toString();
-           // stringArray[2]==value1.getText().toString();
+            stringsArray[2]=currentOperation.toString();
             i.putExtra("values",stringsArray);
             //i.putExtra("value2",value2.getText().toString());
             i.setType("text/plain");
@@ -105,5 +109,22 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        switch(requestCode)
+        {
+            case 0:
+
+                resultView.setText("Error: "+data.getStringExtra("message"));
+            case 1:
+
+                resultView.setText("Result:"+data.getStringExtra("message"));
+
+
+        }
     }
 }
